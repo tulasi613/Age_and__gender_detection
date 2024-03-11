@@ -28,7 +28,7 @@ def predict_gender_and_age(face):
     return gender, age
 
 # Function to detect faces in a frame and predict gender and age for each face
-def detect_faces_and_predict(fr     ame):
+def detect_faces_and_predict(frame):
     # Convert the frame to grayscale
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
